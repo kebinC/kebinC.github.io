@@ -1,0 +1,48 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+source: source
+destination: _site
+sass:
+  sass_dir: _sass
+  style: expanded # compressed # expanded
+
+# permalink and highlighter
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : pygments
+
+# SEO settings
+title: kebinC
+description: ""
+keywords: ""
+
+# Site settings
+url: 
+baseurl: 
+# baseurl: ""
+
+port: 6666
+
+# Author settings
+author:
+  name      : kebinC
+  job       : 
+  bio       : ""
+  thumb     : 
+  email     : kbchen92@gmail.com
+  url       : 
+  github    : https://github.com/kebinC
+  twitter   : 
+  facebook  : 
+  linkedin  : 
+
+# google_analytics: UA-52446115-1
+repo: https://github.com/kebinC/kebinC.github.io
+
+# comments
+disqus_shortname: ""
