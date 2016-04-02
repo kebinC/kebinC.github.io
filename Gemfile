@@ -5,7 +5,7 @@ source 'http://rubygems.org'
 group :development do
   gem 'rake', '~> 10.4.2'
   gem 'sass', '~> 3.4.10'
-  gem 'jekyll', '~> 2.4.0'
+  gem 'jekyll', '~> 3.0'
   gem 'travis', '~> 1.8'
   gem 'github-pages'
   gem 'wdm', '>= 0.1.0' if Gem.win_platform?
