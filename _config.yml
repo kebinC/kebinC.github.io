@@ -28,13 +28,6 @@ baseurl:
 
 port: 6666
 
-gems:
-   - jekyll-mentions
-   - jemoji
-   - jekyll-redirect-from
-   - jekyll-sitemap
-   - jekyll-feed
-
 # Author settings
 author:
   name      : kebinC
